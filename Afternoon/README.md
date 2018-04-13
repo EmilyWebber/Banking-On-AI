@@ -9,7 +9,7 @@ Your team is used to performing this analysis by hand. Previously, you would hav
 Today, you are going to use machine learning to perform the analysis. You will use a labeled data set and a machine learning algorithim to train a model, and then you will use this model to make predictions about which customer will respond to the direct mailing. Finally, you will choose to only submit a mailer to the customers with the strongest predictions.
 
 ### We recommend you consider the following workflow:
-- Access the data, perform preliminary analysis, and break it into X and Y formats.
+- Access the data, perform preliminary analysis, and make sure you have a clear understanding of the X and Y components.
 - Load your historical data into a Sagemaker model, noting customer who have and have not opened bank accounts
 - Train a Sagemaker model, noting your model's accuracy, precision and recall
 - Use the model to make predictions about who is most likely to open a new bank account
@@ -24,7 +24,7 @@ The winner will be the team who finds the most customers who will open a bank ac
 ## Learning Objectives
 A full machine learning solution can take months to build out and perfect. Obviously we can't do all of that inside the scope of a single afternoon, but we can accomplish some key learning objectives:
 - See a few of the steps necessary in going from messy, real-world data to that which is clean, normalized, and ready for modeling
-- Break the data into X and Y, think about what that means and why it is important
+- Think about what it means to have labeled data, and why it is important
 - Train a model in Sagemaker, learning how to distribute that data over multiple instances
 - Send predictions against the model, to understand what it means to submit a prediction and get a result back.
 
