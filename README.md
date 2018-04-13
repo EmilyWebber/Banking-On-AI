@@ -12,7 +12,7 @@ At the end of the day, the winning team gets a prize!
 
 ## Agenda
 
-**Morning**
+**Morning: Learning**
 - Machine Learning with AWS Overview
 - About Jupyter Notebooks
 - Tutorial: Direct Mail Marketing with XGBoost
