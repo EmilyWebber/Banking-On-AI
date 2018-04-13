@@ -1,5 +1,4 @@
-# Amazon SageMaker Workshop: Banking On AI
-## An Immersion Day for AI/ML in Financial Services Advertising
+# Amazon SageMaker Workshop
 
 Amazon SageMaker is a fully managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. This repository contains a collection of workshops and other hands on content that will guide you through using the many features of SageMaker.  
 
