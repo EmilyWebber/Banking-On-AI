@@ -1,29 +1,3 @@
-# Introduction to SageMaker
-
-## Modules
-
-This workshop is divided into multiple modules. After completing **Preliminaries**, complete the module **Creating a Notebook Instance** next.  You can complete the remaining modules in any order. 
-
-- Preliminaries
-
-- Creating a Notebook Instance
-
-- Video Game Sales 
-
-- Distributed Training with TensorFlow 
-
-- Image Classification  
-
-## Preliminaries
-
-- Be sure you have completed all of the Prerequisites listed in the [**main README**](../README.md).
-
-- Download this repository to your computer. To do so:
-  - Return to the home page of this GitHub repository or open it in another tab;
-  - Click the green **Clone or download** button from the upper right of the main page of the repository, then **Download ZIP**.
-
-If you are new to using Jupyter notebooks, read the next section, otherwise you may now skip ahead to the next module.
-
 ### Jupyter Notebooks:  A Brief Overview
 
 Jupyter is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. With respect to code, it can be thought of as a web-based IDE that executes code on the server it is running on instead of locally. 
@@ -58,34 +32,6 @@ To begin, follow these steps:
 6. In the ```bucket = '<your_s3_bucket_name_here>'``` code line, paste the name of the S3 bucket you created in Module 1 to replace ```<your_s3_bucket_name_here>```.  The code line should now read similar to ```bucket = 'smworkshop-john-smith'```.  Do NOT paste the entire path (s3://.......), just the bucket name.  
 
 <p><strong>NOTE:  training the model for this example typically takes about 5 minutes.</strong></p>
-
-
-## Distributed Training with TensorFlow 
-
-In this module we will be using images of handwritten digits from the [MNIST Database](http://yann.lecun.com/exdb/mnist/) to demonstrate how to perform distributed training using SageMaker. Using a convolutional neural network model based on the [TensorFlow MNIST Example](https://github.com/tensorflow/models/tree/master/official/mnist), we will demonstrate how to use a Jupyter notebook and the [SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk) to create your own script to pre-process data, train a model, create a SageMaker hosted endpoint, and make predictions against this endpoint. The model will predict what the handwritten digit is in the image presented for prediction. Besides demonstrating a "bring your own script" for TensorFlow use case, the example also showcases how easy it is to set up a cluster of multiple instances for model training in SageMaker.
-
-1. In your notebook instance, click the **New** button on the right and select **Folder**.
-2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'tensorflow-distributed'.
-3. Click the folder to enter it.
-4. To upload the notebook, click the **Upload** button on the right. Then in the file selection popup, select the file 'TensorFlow_Distributed_MNIST.ipynb' from the notebooks subdirectory in the folder on your computer where you downloaded this GitHub repository. Click the blue **Upload** button that appears to the right of the notebook's file name.
-5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
-
-<p><strong>NOTE:  training the model for this example typically takes about 8 minutes.</strong></p>
-
-## Image Classification 
-
-For this module, we'll work with an image classification example notebook. In particular, we'll use the Amazon-provided image classification algorithm, which is a supervised learning algorithm that takes an image as input and classifies it into one of multiple output categories. It uses a convolutional neural network (ResNet) that can be trained from scratch, or trained using transfer learning when a large number of training images are not available. Even if you don't have experience with neural networks or image classification, SageMaker's image classification algorithm makes the technology easy to use, with no need to design and set up your own neural network.  
-
-Follow these steps:
-
-1. In your notebook instance, click the **New** button on the right and select **Folder**.  
-2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'image-classification'.
-3. Click the folder to enter it.
-4. To upload the notebook, click the **Upload** button on the right. Then in the file selection popup, select the file 'Image-classification-transfer-learning.ipynb' from the notebooks subdirectory in the folder on your computer where you downloaded this GitHub repository. Click the blue **Upload** button that appears to the right of the notebook's file name.
-5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
-
-<p><strong>NOTE:  training the model for this example typically takes about 10 minutes.</strong> However, keep in mind that this is relatively short because transfer learning is used rather than training from scratch, which could take many hours.</p>
-
 
 ## Cleanup
 
