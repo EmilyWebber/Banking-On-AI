@@ -1,6 +1,6 @@
 ## Getting Started
 
-### Download, Upload, and Unzip the Dataset
+### Download the Dataset and Upload to Sagemaker
 1. Download the data from this link: https://www.kaggle.com/c/springleaf-marketing-response/data
 	- Click on the file `test.csv.zip` to initiate the download. The file is 150 MB zipped, so it make take a minute.
 
