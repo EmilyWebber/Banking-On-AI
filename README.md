@@ -1,8 +1,10 @@
 # Banking On AI
 An Immersion Day for AI/ML in Financial Services Advertising
 
-Overview: This repository is for ... 
+Overview: This repository contains a set of instructions, examples, and guidelines for an Immersion Day focusing on AI/ML. First we'll talk about best practices in machine learning, focusing on Amazon Sagemaker. See 
 
+
+Next, we'll walk through an example notebook 
 
 ### Agenda
 
