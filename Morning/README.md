@@ -70,3 +70,15 @@ To run a code cell, simply click in it, then either click the **Run Cell** butto
 
 Please run each code cell in order, and **only once**, to avoid repeated operations.  For example, running the same training job cell twice might create two training jobs, possibly exceeding your service limits.
 
+## Cloning this Repository
+Once you have started a Sagemaker notebook instance, you're going to clone this GitHub repository to that instance. This means that you will be able to read all of these files and run these commands from your notebook instance.  
+
+1. Navigate to your notebook instance. Click 'New,' then 'Terminal.'
+
+2. Navigate to the 'Running' tab, and click on 'Terminal.'
+
+3. You'll see a black box with a blinking white cursor. That is the command line, or bash shell, for your notebook instance. Type 'pwd' to see where you are on the instance, and type 'ls' to see what folders are below you.
+
+4. Type 'cd SageMaker' to drop into the Sagemaker directory. Then type 'ls' to see what folders are in this directory.
+
+5. Now type 'git clone https://github.com/EmilyWebber/Banking-On-AI.git'. You should see some activity on the terminal after you enter this command. After the activity has completed, type 'ls' again to see what folders are now in this directory.  If you see 'Banking-On-AI' in the list, you've cloned this repository to that instance!
