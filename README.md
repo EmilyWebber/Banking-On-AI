@@ -1,8 +1,27 @@
-# Amazon SageMaker Workshops
+# Amazon SageMaker Workshop: Banking On AI
+## An Immersion Day for AI/ML in Financial Services Advertising
 
 Amazon SageMaker is a fully managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. This repository contains a collection of workshops and other hands on content that will guide you through using the many features of SageMaker.  
 
 ![Overview](./images/overview.png)
+
+**Overview:** This repository contains a set of instructions, examples, and guidelines for an Immersion Day focusing on AI/ML. First we'll talk about best practices in machine learning, focusing on Amazon Sagemaker. Next, we'll create our first Sagemaker Notebook instance, along with our S3 bucket. After that, we'll follow a tutorial to understand one machine learning workflow. 
+
+In the afternoon, we'll apply what we learned by having a small competition! Workshop participants will break into teams of 2-3. You'll be given a data set, and will have 4 hours to build a machine learning model that generates predictions against a withheld validation set. 
+
+At the end of the day, the winning team gets a prize!
+
+## Agenda
+
+**Morning**
+- Machine Learning with AWS Overview
+- About Jupyter Notebooks
+- Tutorial: Direct Mail Marketing with XGBoost
+
+**Afternoon: Challenge**
+- Break into teams
+- Build your own machine learning models
+- Use the models to find customers for a marketing campaign
 
 # Prerequisites
 
@@ -23,24 +42,3 @@ Once you've chosen a region, you should create all of the resources for this wor
 ## Browser
 
 We recommend you use the latest version of Chrome or Firefox to complete this workshop.
-
-# Banking On AI
-An Immersion Day for AI/ML in Financial Services Advertising
-
-**Overview:** This repository contains a set of instructions, examples, and guidelines for an Immersion Day focusing on AI/ML. First we'll talk about best practices in machine learning, focusing on Amazon Sagemaker. Next, we'll create our first Sagemaker Notebook instance, along with our S3 bucket. After that, we'll follow a tutorial to understand one machine learning workflow. 
-
-In the afternoon, we'll apply what we learned by having a small competition! Workshop participants will break into teams of 2-3. You'll be given a data set, and will have 4 hours to build a machine learning model that generates predictions against a withheld validation set. 
-
-At the end of the day, the winning team gets a prize!
-
-## Agenda
-
-**Morning**
-- Machine Learning with AWS Overview
-- About Jupyter Notebooks
-- Tutorial: Direct Mail Marketing with XGBoost
-
-**Afternoon: Challenge**
-- Break into teams
-- Build your own machine learning models
-- Use the models to find customers for a marketing campaign
