@@ -7,7 +7,7 @@ In the afternoon, we'll apply what we learned by having a small competition! Wor
 
 At the end of the day, the winning team gets a prize!
 
-### Agenda
+## Agenda
 
 Morning
 - Machine Learning with AWS Overview
