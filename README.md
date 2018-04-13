@@ -6,5 +6,14 @@ Overview: This repository is for ...
 
 ### Agenda
 
-- Amazon SageMaker Presentation
-- 
+Morning
+- Machine Learning with AWS Overview
+- Jupyter Notebooks
+- Tutorial: Direct Mail Marketing
+
+Afternoon: Challenge
+- Break into teams
+- Build your own machine learning models
+- Use the models to find customers for a marketing campaign
+
+The winning team gets a prize!
