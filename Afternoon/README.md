@@ -8,7 +8,7 @@ Your team is used to performing this analysis by hand. Previously, you would hav
 
 Today, you are going to use machine learning to perform the analysis. You will use a labeled data set and a machine learning algorithim to train a model, and then you will use this model to make predictions about which customer will respond to the direct mailing. Finally, you will choose to only submit a mailer to the customers with the strongest predictions.
 
-We recommend you consider the following workflow:
+### We recommend you consider the following workflow:
 - Access the data, perform preliminary analysis, and break it into X and Y formats.
 - Load your historical data into a Sagemaker model, noting customer who have and have not opened bank accounts
 - Train a Sagemaker model, noting your model's accuracy, precision and recall
