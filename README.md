@@ -9,12 +9,12 @@ At the end of the day, the winning team gets a prize!
 
 ## Agenda
 
-Morning
+**Morning**
 - Machine Learning with AWS Overview
-- **About Jupyter Notebooks**
+- About Jupyter Notebooks
 - Tutorial: Direct Mail Marketing with XGBoost
 
-Afternoon: Challenge
+**Afternoon: Challenge**
 - Break into teams
 - Build your own machine learning models
 - Use the models to find customers for a marketing campaign
