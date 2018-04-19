@@ -64,21 +64,21 @@ Jupyter is an open-source web application that allows you to create and share do
 
 There are two main types of "cells" in a notebook:  code cells, and "markdown" cells with explanatory text. You will be running the code cells.  These are distinguished by having "In" next to them in the left margin next to the cell, and a greyish background.  Markdown cells lack "In" and have a white background. In the screenshot below, the upper cell is a markdown cell, while the lower cell is a code cell:
 
-![Cells](../images/cells.png)
+![Cells](./images/cells.png)
 
 To run a code cell, simply click in it, then either click the **Run Cell** button in the notebook's toolbar, or use Control+Enter from your computer's keyboard. It may take a few seconds to a few minutes for a code cell to run. You can determine whether a cell is running by examining the `In[]:` indicator in the left margin next to each cell:  a cell will show `In [*]:` when running, and `In [a number]:` when complete.
 
 Please run each code cell in order, and **only once**, to avoid repeated operations.  For example, running the same training job cell twice might create two training jobs, possibly exceeding your service limits.
 
-## Cloning this Repository
-Once you have started a Sagemaker notebook instance, you're going to clone this GitHub repository to that instance. This means that you will be able to read all of these files and run these commands from your notebook instance.  
+## Opening the Notebook
+Once you have started a Sagemaker notebook instance, you're going to open one of the sample notebooks. This means that you will have all of the code you need to be successful in running your first machine learning project on the cloud!
 
-1. Navigate to your notebook instance. Click `New`, then `Terminal`.
+1. Navigate to your notebook instance. Click on `sample-notebooks`.
 
-2. Navigate to the `Running` tab, and click on `Terminal`.
+2. Click on `introduction_to_applying_machine_learning`
 
-3. You'll see a black box with a blinking white cursor. That is the command line, or bash shell, for your notebook instance. Type `pwd` to see where you are on the instance, and type `ls` to see what folders are below you.
+3. Click on `xgboost_direct_marketing`
 
-4. Type `cd SageMaker` to drop into the Sagemaker directory. Then type `ls` to see what folders are in this directory.
+4. Click on `xgboost_direct_marketing_sagemaker.ipynb`
 
-5. Now type `git clone https://github.com/EmilyWebber/Banking-On-AI.git`. You should see some activity on the terminal after you enter this command. After the activity has completed, type `ls` again to see what folders are now in this directory.  If you see `Banking-On-AI` in the list, you've cloned this repository to that instance!
+When the notebook opens, make sure to type in the name of your bucket in the first cell. After that, you should be able to run the entire notebook in a single click. We are going to walk through this step-by-step, but you are welcome to jump ahead as you like.
