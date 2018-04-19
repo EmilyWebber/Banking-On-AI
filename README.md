@@ -11,7 +11,7 @@ In the afternoon, we'll apply what we learned by having an active working sessio
 
 ## Agenda
 
-[**Morning: Learning**
+**Morning: Learning**
 - Machine Learning with AWS Overview
 - About Jupyter Notebooks
 - Tutorial: Direct Mail Marketing with XGBoost
