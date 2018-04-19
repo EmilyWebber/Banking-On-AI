@@ -27,7 +27,7 @@ In the afternoon, we'll apply what we learned by having an active working sessio
 
 In order to complete this workshop you'll need an AWS Account and an AWS IAM user with access to create AWS IAM, Amazon S3, and Amazon SageMaker resources. The code and instructions in this workshop assume only one student is using a given AWS account at a time. If you try sharing an account with another student, you'll run into naming conflicts for certain resources. You can work around these by appending a unique suffix to the resources that fail to create due to conflicts, but the instructions do not provide details on the changes required to make this work. Use a personal account or create a new AWS account for this workshop rather than using an organization’s account to ensure you have full access to the necessary services and to ensure you do not leave behind any resources from the workshop.
 
-To avoid charges for endpoints and other resources you might not need after you've finished a workshop, please refer to the [**Cleanup Guide**](cleanup.html). 
+To avoid charges for endpoints and other resources you might not need after you've finished a workshop, please refer to the [**Cleanup Guide**]. 
 
 ## AWS Region
 
