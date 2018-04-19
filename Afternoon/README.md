@@ -21,7 +21,14 @@ Download the data with these lines:
 
 [ insert image from downloading the new data from my s3 bucket]
 
-Use what you learned from both the morning session on direct mailing in XGBoost and the data distribution notebook to train your own models in SageMaker and distribute the job over multiple instances. You can use XGBoost, or you can use our second classification algorithim Linear Learner. See this e
+Use what you learned from both the morning session on direct mailing in XGBoost and the data distribution notebook to train your own models in SageMaker and distribute the job over multiple instances. You can use XGBoost, or you can use our second classification algorithim Linear Learner. 
+
+### Chunking the Dataset
+If you decide you would like to use the ShardedbyS3Key for distribution techniques, then you will need to create as many files as instances you will send your data to. This method sends exactly one file to each instance you specify during training. 
+
+In this case, we recommend writing just a few lines in Python to create these new files. 
+
+[ add more help here for file I/O in Python and chunking the dataset ]
 
 
 ## Your Submission
@@ -42,4 +49,4 @@ A full machine learning solution can take months to build out and perfect. Obvio
 - Train a model in Sagemaker, learning how to distribute that data over multiple instances
 - Send predictions against the model, understanding what it means to submit a prediction and get a result back.
 
-Now click on **Getting Started** and you're ready to start modeling!
+Now take a look at  **data_distribution_types.ipynb** and you're ready to start modeling!
