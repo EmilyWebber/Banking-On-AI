@@ -14,12 +14,12 @@ In the afternoon, we'll apply what we learned by having an active working sessio
 **Morning: Learning**
 - Machine Learning with AWS Overview
 - About Jupyter Notebooks
-- Tutorial: Direct Mail Marketing with XGBoost
+- Tutorial Notebook
 
 **Afternoon: Active Work Session**
-- Distributed Training Notebook
-- Q/A
-- Whiteboarding
+- Statistical Learning 101
+- Additional Notebook
+- Problem Solving Whiteboarding
 
 # Prerequisites
 
