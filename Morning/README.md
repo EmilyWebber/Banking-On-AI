@@ -75,10 +75,10 @@ Once you have started a Sagemaker notebook instance, you're going to open one of
 
 1. Navigate to your notebook instance. Click on `sample-notebooks`.
 
-2. Click on `introduction_to_applying_machine_learning`
+2. Click on `introduction_to_amazon_algorithms`
 
-3. Click on `xgboost_direct_marketing`
+3. Click on `imageclassification_caltech`
 
-4. Click on `xgboost_direct_marketing_sagemaker.ipynb`
+4. Click on `Image-classification-fulltraining.ipynb.ipynb`
 
 When the notebook opens, make sure to type in the name of your bucket in the first cell. After that, you should be able to run the entire notebook in a single click. We are going to walk through this step-by-step, but you are welcome to jump ahead as you like.
